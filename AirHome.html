@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/bootstrap-table.min.css">
+  <link rel="stylesheet" href="css/dcalendar.picker.css">
+  <link rel="stylesheet" href="css/AirHome.css">
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/jquery-ui-1.10.3.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap-table.min.js"></script>
+  <script type="text/javascript" src="js/dcalendar.picker.js"></script>
+  <script type="text/javascript" src="js/bootstrap-table-zh-CN.min.js"></script>
+
+  <style>
+
+  </style>
+</head>
+<body>
+  <div id="airHome">
+    <div class="header"></div>
+    <div class="body">
+      <div id="left"  class="col-md-4">
+        <div class="point">
+          <h3>点位排名</h3>
+          <select name="" id=""></select>
+          <table id="pointTable1"></table>
+        </div>
+        <div class="calendar">
+          <h3>环境日历图</h3>
+          <table id='datepicker'></table>
+          <div id="cal"></div>
+        </div>
+      </div>
+      <div id="center" class="col-md-4">
+        <h3>实时联网状态</h3>
+        <div class="centerTop">
+          <div>
+            <h4>在线信息</h4>
+          </div>
+          <div>
+            <h4>数据异常</h4>
+          </div>
+        </div>
+        <table id="pointTable2"></table>
+      </div>
+      <div class="col-md-3">
+        <h3>达标情况</h3>
+      </div>
+    </div>
+  </div>
+</body>
+<script type="text/javascript" src="js/AirHome.js"></script>
+</html>

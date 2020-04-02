@@ -1,0 +1,33 @@
+*{margin:0;padding:0}
+.body{
+  display: flex;
+}
+
+/* 点位排行 */
+.point{
+
+}
+
+.table-bordered td, .table-bordered th{
+  border:0;
+}
+.table td, .table th{
+  border-top:0;
+}
+
+/* 日历 */
+#datepicker{
+  width:100%;
+}
+.calendar-wrapper{
+  width:100%;
+}
+.calendar-grid .calendar-date-holder{
+  width:100%;
+  height:200px;
+}
+
+/* 实时联网状态 */
+.centerTop{
+  display: flex;
+}
